@@ -585,7 +585,7 @@ export default function ACILandingPage() {
               Login
             </Link>
             <Link
-              href="/comecar"
+              href="#comecar"
               className="bg-emerald-500 hover:bg-emerald-600 text-black font-semibold px-5 py-2.5 rounded-lg transition-all hover:scale-105"
             >
               Começar
@@ -613,7 +613,7 @@ export default function ACILandingPage() {
           </p>
           <div className="hero-buttons flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href="/comecar"
+              href="#comecar"
               className="group bg-emerald-500 hover:bg-emerald-600 text-black font-semibold px-8 py-4 rounded-lg transition-all hover:scale-105 flex items-center gap-2"
             >
               Começar Agora
@@ -1032,7 +1032,7 @@ export default function ACILandingPage() {
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
             <Link
-              href="/comecar"
+              href="#comecar"
               className="group bg-emerald-500 hover:bg-emerald-600 text-black font-semibold px-8 py-4 rounded-lg transition-all hover:scale-105 flex items-center gap-2"
             >
               Começar com ACI
@@ -1049,6 +1049,28 @@ export default function ACILandingPage() {
           <p className="text-sm text-gray-500">Setup em minutos • Sem compromisso • Suporte dedicado</p>
         </div>
       </section>
+      {/* Seção Começar */} 
+<section id="comecar" className="py-32 px-6 bg-[#0a0a0a]">
+  <div className="max-w-4xl mx-auto text-center">
+    <h2 className="text-4xl md:text-5xl font-bold mb-6">
+      Começar com ACI
+    </h2>
+
+    <p className="text-xl text-gray-400 mb-10">
+      Em breve você poderá criar sua conta e ativar o compliance automático.
+    </p>
+
+    <div className="bg-[#111] border border-white/10 rounded-xl p-10">
+      <p className="text-gray-500 mb-6">
+        🚀 Área de onboarding em construção
+      </p>
+
+      <button className="bg-emerald-500 hover:bg-emerald-600 text-black font-semibold px-6 py-3 rounded-lg transition-all">
+        Entrar na lista de espera
+      </button>
+    </div>
+  </div>
+</section>
 
       {/* Footer */}
       <footer className="footer py-16 px-6 border-t border-white/5">
