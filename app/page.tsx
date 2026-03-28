@@ -584,12 +584,12 @@ export default function ACILandingPage() {
             <Link href="/login" className="text-gray-400 hover:text-white transition-colors">
               Login
             </Link>
-            <Link
+            <a
               href="#comecar"
               className="bg-emerald-500 hover:bg-emerald-600 text-black font-semibold px-5 py-2.5 rounded-lg transition-all hover:scale-105"
             >
               Começar
-            </Link>
+            </a>
           </div>
         </div>
       </nav>
@@ -612,13 +612,13 @@ export default function ACILandingPage() {
             Compliance não deveria ser um esforço. Deveria ser uma infraestrutura.
           </p>
           <div className="hero-buttons flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Link
+            <a
               href="#comecar"
               className="group bg-emerald-500 hover:bg-emerald-600 text-black font-semibold px-8 py-4 rounded-lg transition-all hover:scale-105 flex items-center gap-2"
             >
               Começar Agora
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Link>
+            </a>
             <Link
               href="/demo"
               className="bg-transparent hover:bg-white/5 text-white font-semibold px-8 py-4 rounded-lg border border-white/20 transition-all hover:scale-105"
@@ -1031,13 +1031,13 @@ export default function ACILandingPage() {
           <p className="text-xl text-emerald-400 mb-10">Deveria ser uma infraestrutura.</p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
-            <Link
+            <a
               href="#comecar"
               className="group bg-emerald-500 hover:bg-emerald-600 text-black font-semibold px-8 py-4 rounded-lg transition-all hover:scale-105 flex items-center gap-2"
             >
               Começar com ACI
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </Link>
+            </a>
             <Link
               href="/demo"
               className="bg-transparent hover:bg-white/5 text-white font-semibold px-8 py-4 rounded-lg border border-white/20 transition-all hover:scale-105"
